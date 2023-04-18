@@ -1,0 +1,1681 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.offer {
+    background-color: #05422C;
+    width: 100%;
+    height: 37px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+    gap: 16px;
+}
+
+.offersale {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    opacity: 70%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-family: 'Lexend', sans-serif;
+}
+
+.timer {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-family: 'Lexend', sans-serif;
+}
+
+/* #searchbtn {
+    width: 15px;
+    height: 15px;
+    background-color: #17AF26;
+    border-radius: 50%;
+    padding: 25px;
+    text-align: center;
+    justify-content: center;
+    display: center;
+    font-size: 20px;
+} */
+
+.searchbar {
+    border: 0;
+    outline: 0;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    border-radius: 25px;
+    width: 400px;
+    height: 48px;
+    margin-left: 135px;
+    font-size: 16px;
+    margin-top: 20px;
+    font-family: 'Lexend', sans-serif;
+}
+
+.searchbar::placeholder {
+    color: #C8C9CB;
+}
+
+#searchicon {
+    padding-left: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    gap: 8px;
+    width: 48px;
+    height: 48px;
+    background: #17AF26;
+    border-radius: 100px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    color: white;
+    margin-left: 555px;
+    margin-top: -46.5px;
+}
+
+.toplogo {
+    margin-left: 64px;
+    margin-top: 18px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.acc {
+    color: #46494F;
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: 400;
+    font-family: 'Lexend', sans-serif;
+    margin-top: 35px;
+    height: 21px;
+    margin-right: 136px;
+}
+
+#bag {
+    margin-left: 52px;
+    width: 18px;
+    height: 14px;
+}
+
+.cart {
+    margin-left: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: #46494F;
+}
+
+.rotatehalf {
+    transform: rotate(90deg);
+    border: 1px solid #C8C9CB;
+    margin-left: 45px;
+}
+
+.nav {
+    font-family: 'Lexend', sans-serif;
+    display: flex;
+    gap: 40px;
+    margin-top: 34px;
+    justify-content: center;
+    color: #46494F;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+#dropdown {
+    margin-left: 6px;
+}
+
+.girchi {
+    margin-top: 116px;
+    margin-left: 151px;
+    position: relative;
+    background-color: white;
+}
+
+.choose {
+    margin-top: 92px;
+    margin-left: 180px;
+    gap: 32px;
+    display: flex;
+}
+
+.choose img {
+    width: 48px;
+    height: 48px;
+}
+
+.choose1 {
+    border: 1px solid #17AF26;
+    border-radius: 8px;
+    padding: 8px 8px 8px 8px;
+    margin-top: -7px;
+}
+
+.conc {
+    font-family: 'Lexend', sans-serif;
+    width: 158px;
+    height: 21px;
+    line-height: 21px;
+    letter-spacing: 4px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #9D9EA2;
+    position: absolute;
+    margin-left: 744px;
+    margin-top: -597px;
+}
+
+.mix {
+    color: #060709;
+    position: absolute;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38.4px;
+    letter-spacing: -1.5px;
+    width: 510px;
+    height: 76px;
+    margin-left: 744px;
+    margin-top: -565px;
+}
+
+.genre {
+    display: flex;
+}
+
+.ind {
+    font-family: 'Lexend', sans-serif;
+    margin-left: 760px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #05422C;
+    width: 38px;
+    height: 18px;
+    margin-top: -462px;
+}
+
+.sati {
+    position: absolute;
+    font-family: 'Lexend', sans-serif;
+    margin-left: 846px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #05422C;
+    width: 90px;
+    height: 18px;
+    margin-top: -462px;
+}
+
+.price {
+    display: flex;
+}
+
+.oldprice {
+    font-family: 'Lexend', sans-serif;
+    text-decoration: line-through;
+    color: #9D9EA2;
+    width: 62px;
+    height: 24px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    margin-left: 744px;
+    margin-top: -410px;
+}
+
+.newprice {
+    font-family: 'Lexend', sans-serif;
+    color: #EB2606;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    width: 77px;
+    height: 30px;
+    margin-left: 15px;
+    margin-top: -414px;
+}
+
+.rating {
+    font-family: 'Lexend', sans-serif;
+    margin-left: 307px;
+    width: 69px;
+    height: 23px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    color: #060709;
+    margin-top: -410px;
+}
+
+#star {
+    margin-right: 6px;
+}
+
+.rotatehalf2 {
+    transform: rotate(90deg);
+    width: 12px;
+    height: 0px;
+    border: 1px solid #C8C9CB;
+    margin-left: 16px;
+    margin-top: -399px;
+}
+
+.reviews {
+    display: flex;
+    margin-top: -410px;
+}
+
+.reviewnumb {
+    font-family: 'Lexend', sans-serif;
+    color: #060709;
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 16px;
+    width: 26px;
+    height: 24px;
+}
+
+.review {
+    font-family: 'Lexend', sans-serif;
+    margin-left: 8px;
+    color: #9D9EA2;
+    width: 56px;
+    height: 21px;
+    margin-top: 1px;
+    font-size: 17px;
+}
+
+.effect {
+    position: absolute;
+}
+
+#circle1 {
+    position: absolute;
+    margin-top: -349px;
+    margin-left: 776px;
+    color: #9D9EA2;
+    width: 16px;
+    height: 16px;
+}
+
+#circle2 {
+    position: absolute;
+    margin-top: -339px;
+    margin-left: 771px;
+    color: #9D9EA2;
+    width: 16px;
+    height: 16px;
+}
+
+#circle3 {
+    position: absolute;
+    margin-top: -339px;
+    margin-left: 781px;
+    color: #9D9EA2;
+    width: 16px;
+    height: 16px;
+}
+
+.eff {
+    font-family: 'Lexend', sans-serif;
+    position: absolute;
+    margin-left: 816px;
+    color: #717378;
+    margin-top: -359px;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.calm {
+    font-family: 'Lexend', sans-serif;
+    margin-left: 816px;
+    margin-top: -327px;
+    color: #060709;
+}
+
+.reli {
+    font-family: 'Lexend', sans-serif;
+    color: #9D9EA2;
+    width: 113px;
+    height: 29px;
+    margin-left: 816px;
+    margin-top: -40px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 1px;
+}
+
+#head {
+    width: 27px;
+    height: 29px;
+    font-size: 26px;
+    color: #9D9EA2;
+    margin-left: 774px;
+    margin-top: 30px;
+}
+
+.anxi {
+    font-family: 'Lexend', sans-serif;
+    font-weight: 400;
+    margin-left: 816px;
+    margin-top: 5px;
+    width: 544px;
+    height: 42px;
+    color: #060709;
+}
+
+#waves {
+    transform: rotate(90deg);
+    margin-left: 776px;
+    margin-top: 35px;
+}
+
+.aro {
+    font-family: 'Lexend', sans-serif;
+    color: #9D9EA2;
+    margin-left: 816px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    width: 92px;
+    height: 21px;
+    margin-top: -29px;
+}
+
+.chemic {
+    font-family: 'Lexend', sans-serif;
+    width: 473px;
+    height: 21px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #060709;
+    margin-left: 816px;
+    margin-top: 12px;
+}
+
+.desc1 {
+    font-family: 'Lexend', sans-serif;
+    width: 93px;
+    height: 18px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    margin-left: 744px;
+    margin-top: -85px;
+    color: #717378;
+}
+
+.jungle {
+    font-family: 'Lexend', sans-serif;
+    position: absolute;
+    width: 640px;
+    height: 42px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    color: #46494F;
+    margin-left: 744px;
+    margin-top: 12px;
+}
+
+.wgh {
+    font-family: 'Lexend', sans-serif;
+    position: absolute;
+    margin-left: 744px;
+    margin-top: 95px;
+    color: #717378;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 1px;
+}
+
+.weigh {
+    font-family: 'Lexend', sans-serif;
+    position: absolute;
+    display: flex;
+    gap: 44px;
+    margin-left: 745px;
+    margin-top: 140px;
+    font-size: 14px;
+    line-height: 18px;
+    width: 22px;
+    height: 18px;
+    color: #060709;
+}
+
+.kg {
+    border: 1px solid #17AF26;
+    padding-top: 8.5px;
+    padding-bottom: 8.5px;
+    padding-left: 14px;
+    padding-right: 14px;
+    width: 50px;
+    height: 36px;
+    border-radius: 4px;
+    margin-top: -7px;
+    gap: 12px;
+}
+
+.integra {
+    position: absolute;
+    font-family: 'Lexend', sans-serif;
+    position: absolute;
+    display: flex;
+    gap: 44px;
+    margin-left: 1076px;
+    margin-top: 98px;
+    font-size: 14px;
+    line-height: 18px;
+    height: 18px;
+    color: #717378;
+}
+
+.bonus {
+    position: absolute;
+    font-family: 'Lexend', sans-serif;
+    display: flex;
+    margin-left: 1076px;
+    margin-top: 140px;
+    font-size: 15px;
+    line-height: 21px;
+    height: 18px;
+    font-weight: 400;
+}
+
+#checkm {
+    margin-right: 10px;
+    font-size: 21px !important;
+}
+
+.checkm1 {
+    position: absolute;
+    font-family: 'Lexend', sans-serif;
+    display: flex;
+    margin-left: 1076px;
+    margin-top: 138px;
+    font-weight: 400;
+    line-height: 21px;
+    height: 21px;
+    color: #060709;
+}
+
+.checkm2 {
+    position: absolute;
+    font-family: 'Lexend', sans-serif;
+    display: flex;
+    margin-left: 1223px;
+    margin-top: 138px;
+    font-weight: 400;
+    line-height: 21px;
+    height: 21px;
+    color: #060709;
+}
+
+.purch {
+    font-family: 'Lexend', sans-serif;
+    position: absolute;
+    margin-top: 195px;
+    margin-left: 758px;
+    height: 21px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.buyincart {
+    position: absolute;
+    font-family: 'Lexend', sans-serif;
+    display: flex;
+    margin-top: 260px;
+    margin-left: 768px;
+}
+
+.buyingcart {
+    color: #46494F;
+}
+
+.nump {
+    margin-left: 16px;
+    color: #9D9EA2;
+}
+
+.pricee {
+    margin-left: 367px;
+    color: #060709;
+}
+
+.buyincart2 {
+    font-family: 'Lexend', sans-serif;
+    position: absolute;
+    display: flex;
+    margin-left: 768px;
+    margin-top: 300px;
+}
+
+.integrapack {
+    color: #46494F;
+    font-weight: 400;
+    line-height: 21px;
+    height: 21px;
+}
+
+.pricee2 {
+    margin-left: 394px;
+}
+
+.buyincart3 {
+    font-family: 'Lexend', sans-serif;
+    position: absolute;
+    display: flex;
+    margin-top: 340px;
+    margin-left: 768px;
+}
+
+.integrapack2 {
+    color: #46494F;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.pricee3 {
+    color: #060709;
+    margin-left: 396px;
+}
+
+.buynow {
+    font-family: 'Lexend', sans-serif;
+    display: flex;
+    color: #060709;
+    font-weight: 400;
+    line-height: 18px;
+    height: 18px;
+    margin-left: 798px;
+    margin-top: 410px;
+}
+
+.quantity {
+    margin-left: 33px;
+}
+
+.plus {
+    margin-left: 33px;
+}
+
+.stock {
+    color: #17AF26;
+    height: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-left: 50px;
+    font-size: 15px;
+}
+
+.add {
+    display: flex;
+    background-color: #17AF26;
+    color: #FFFFFF;
+    margin-left: 95px;
+    padding-top: 16px;
+    padding-bottom: 16x;
+    padding-left: 32px;
+    padding-right: 32px;
+    height: 56px;
+    gap: 16px;
+    border-radius: 100px;
+    margin-top: -20px;
+    cursor: pointer;
+}
+
+.rotline {
+    transform: rotate(90deg);
+    width: 12px;
+    height: 0px;
+    border: 1px solid #FFFFFF;
+    margin-top: 11px;
+    margin-left: 16px;
+}
+
+.addprice {
+    margin-left: 18px;
+    margin-top: 2.5px;
+}
+
+#check1 {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    margin-top: 73px;
+    margin-left: 773px;
+}
+
+.xpress {
+    font-family: 'Lexend', sans-serif;
+    display: flex;
+}
+
+.order {
+    font-family: 'Lexend', sans-serif;
+    display: flex;
+    margin-left: 773px;
+    margin-top: 12px;
+}
+
+.support {
+    font-family: 'Lexend', sans-serif;
+    display: flex;
+    margin-left: 773px;
+    margin-top: 12px;
+}
+
+.xpresspara {
+    margin-left: 13px;
+    margin-top: 70px;
+}
+
+.orderpara {
+    margin-left: 13px;
+    margin-top: -3px;
+}
+
+.supportpara {
+    margin-left: 13px;
+    margin-top: -3px;
+}
+
+.sku {
+    display: flex;
+    font-family: 'Lexend', sans-serif;
+    margin-top: 70px;
+    margin-left: 744px;
+    color: #717378;
+}
+
+.db1 {
+    margin-left: 55px;
+}
+
+.unknown {
+    margin-left: 12px;
+    color: #060709;
+}
+
+.categ {
+    margin-left: 185px;
+    color: #717378;
+}
+
+.db2 {
+    margin-left: 55px;
+}
+
+.weed {
+    margin-left: 12px;
+    color: #17AF26;
+}
+
+.line {
+    position: absolute;
+    width: 640px;
+    height: 0px;
+    border: 1px solid #C8C9CB;
+    margin-top: 9.5px;
+    margin-left: -5px;
+}
+
+.reviewdesc {
+    font-family: 'Lexend', sans-serif;
+    display: flex;
+    margin-top: 42px;
+    margin-left: 790px;
+}
+
+.desc{
+    height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #46494F;
+}
+
+.revi {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px;
+    gap: 8px;
+    width: 198.33px;
+    height: 48px;
+    background: #F2F6F4;
+    border: 1px solid #05422C;
+    border-radius: 100px;
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+    margin-left: 85px;
+    margin-top: -10px;
+}
+
+.refer {
+    margin-left: 105px;
+    height: 24px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #46494F;
+}
+
+.guy1 {
+    display: flex;
+    margin-top: 84px;
+    margin-left: 760px;
+}
+
+.human1 {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+}
+
+.name1 {
+    font-family: 'Lexend', sans-serif;
+    margin-left: 16px;
+    color: #1A1E26;
+    height: 24px;
+    margin-top: 9px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.data {
+    font-family: 'Lexend', sans-serif;
+    margin-top: 10px;
+    margin-left: 32px;
+    color: #9D9EA2;
+    height: 21px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+}
+
+.vikkirating {
+    position: absolute;
+    display: flex;
+    gap: 4px;
+    margin-left: 760px;
+    margin-top: 32px;
+    width: 16px;
+    height: 16px;
+}
+
+.vikcomment {
+    font-family: 'Lexend', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    width: 592px;
+    height: 72px;
+    color: #1A1E26;
+    margin-left: 760px;
+    margin-top: 64px;
+}
+
+.guy2 {
+    display: flex;
+    margin-left: 760px;
+    margin-top: 68px;
+}
+
+.human2 {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+}
+
+.name2 {
+    font-family: 'Lexend', sans-serif;
+    margin-left: 16px;
+    color: #1A1E26;
+    height: 24px;
+    margin-top: 9px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.data2 {
+    font-family: 'Lexend', sans-serif;
+    margin-top: 10px;
+    margin-left: 32px;
+    color: #9D9EA2;
+    height: 21px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+}
+
+.terryrating {
+    position: absolute;
+    display: flex;
+    gap: 4px;
+    margin-left: 760px;
+    margin-top: 32px;
+    width: 16px;
+    height: 16px;
+}
+
+.tercomment {
+    font-family: 'Lexend', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    width: 592px;
+    height: 24px;
+    color: #1A1E26;
+    margin-left: 760px;
+    margin-top: 64px;
+}
+
+.showmore {
+    font-family: 'Lexend', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    height: 21px;
+    color: #17AF26;
+    margin-left: 1018px;
+    margin-top: 54px;
+}
+
+.addrev {
+    font-family: 'Lexend', sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    height: 27px;
+    margin-left: 736px;
+    margin-top: 57.5px;
+    color: #060709;
+}
+
+.myrating {
+    font-family: 'Lexend', sans-serif;
+    display: flex;
+    margin-top: 25.5px;
+    margin-left: 736px;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #46494F;
+}
+
+.dots {
+    margin-left: 16px;
+}
+
+#ratestar {
+    gap: 6px;
+    margin-left: 16px;
+    margin-top: -2px;
+    width: 24px;
+    height: 24px;
+    font-size: 24px;
+}
+
+.urrev {
+    font-family: 'Lexend', sans-serif;
+    margin-top: 17.5px;
+    margin-left: 736px;
+    color: #46494F;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+#textareaa {
+    font-family: 'Lexend', sans-serif;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 268px;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 400;
+    margin-left: 736px;
+    border: none;
+    outline: none;
+    margin-top: 8px;
+}
+
+#textarea::placeholder {
+    color: #C8C9CB;
+}
+
+.send {
+    font-family: 'Lexend', sans-serif;
+    margin-left: 736px;
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 40px;
+    gap: 8px;
+    width: 137px;
+    height: 56px;
+    background: #17AF26;
+    border-radius: 100px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    color: #FFFFFF;
+}
+
+.halfline {
+    position: absolute;
+    width: 1312px;
+    height: 0px;
+    border: 1px solid #C8C9CB;
+    margin-top: 64px;
+    margin-left: 10%;
+}
+
+.feature {
+    font-family: 'Lexend', sans-serif;
+    margin-left: 10%;
+    margin-top: 135px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.5px;
+    color: #1A1E26;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.phototo1 {
+    margin-top: 78px;
+    margin-right: 120px;
+    margin-left: 120px;
+}
+
+.flowerr {
+    font-family: 'Lexend', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    height: 21px;
+    margin-top: 62px;
+    color: #9D9EA2;
+}
+
+.flowerdesc {
+    font-family: 'Lexend', sans-serif;
+    margin-top: 8px;
+    width: 304px;
+    height: 54px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    margin-left: 64px;
+    color: #1A1E26;
+}
+
+.flowerrating {
+    font-family: 'Lexend', sans-serif;
+    display: flex;
+    margin-left: 109px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.flowerscore {
+    margin-left: 6px;
+}
+
+.flowerline {
+    transform: rotate(90deg);
+    width: 12px;
+    height: 0px;
+    border: 1px solid #C8C9CB;
+    margin-top: 9.5px;
+    margin-left: 12px;
+}
+
+.flowerreviews {
+    margin-left: 12px;
+}
+
+.flowrev {
+    margin-left: 6px;
+    color: #C8C9CB;
+}
+
+.flowersativa {
+    font-family: 'Lexend', sans-serif;
+    color: #05422C;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    margin-top: 12.5px;
+}
+
+.flowerprice1 {
+    font-family: 'Lexend', sans-serif;
+    display: flex;
+    margin-top: 25.5px;
+    margin-left: 150px;
+}
+
+.flowerprice2 {
+    font-family: 'Lexend', sans-serif;
+    display: flex;
+    margin-top: 56px;
+    margin-left: 135px;
+}
+
+.flowerprice3 {
+    font-family: 'Lexend', sans-serif;
+    display: flex;
+    margin-top: 25.5px;
+    margin-left: 135px;
+}
+
+.flowerprice4 {
+    font-family: 'Lexend', sans-serif;
+    display: flex;
+    margin-top: 25.5px;
+    margin-left: 135px;
+}
+
+.flowerpricee1 {
+    font-family: 'Lexend', sans-serif;
+    color: #C8C9CB;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    margin-left: 4px;
+}
+
+.flowerpriceles1 {
+    font-family: 'Lexend', sans-serif;
+    color: #EB2606;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    margin-top: -2px;
+}
+
+.flowerpriceles2 {
+    font-family: 'Lexend', sans-serif;
+    color: #9D9EA2;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 3px;
+    text-decoration: line-through;
+}
+
+.flowerpricee2 {
+    font-family: 'Lexend', sans-serif;
+    color: #EB2606;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    margin-left: 12px;
+}
+
+.flowerpriceles3 {
+    font-family: 'Lexend', sans-serif;
+    color: #9D9EA2;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 3px;
+    text-decoration: line-through;
+}
+
+.flowerpricee3 {
+    font-family: 'Lexend', sans-serif;
+    color: #EB2606;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    margin-left: 12px;
+}
+
+.flowerpriceles4 {
+    font-family: 'Lexend', sans-serif;
+    color: #9D9EA2;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 3px;
+    text-decoration: line-through;
+}
+
+.flowerpricee4 {
+    font-family: 'Lexend', sans-serif;
+    color: #EB2606;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    margin-left: 12px;
+}
+
+.flowerweight {
+    font-family: 'Lexend', sans-serif;
+    display: flex;
+    gap: 28px;
+    margin-top: 26.5px;
+    margin-left: 125px;
+    color: #1A1E26;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.addtocart {
+    margin-top: 2.5px;
+}
+
+.addtocart2 {
+    font-family: 'Lexend', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 24px;
+    gap: 8px;
+    width: 128px;
+    height: 40px;
+    background: #17AF26;
+    border-radius: 100px;
+    flex: none;
+    order: 3;
+    align-self: stretch;
+    flex-grow: 0;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    margin-top: 27.5px;
+    margin-left: 140px;
+}
+
+.addincart {
+    color: white !important;
+}
+
+.ounceoffer {
+    font-family: 'Lexend', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 16px 5px;
+    gap: 12px;
+    position: absolute;
+    width: 103px;
+    height: 36px;
+    background: #F2BC1B;
+    border-radius: 4px 0px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    z-index: 2;
+    margin-left: 68px;
+    margin-top: -200px;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.ounceofferpara {
+    margin-top: 2px;
+}
+
+.outofstockblur {
+    font-family: 'Lexend', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 32px 5px;
+    gap: 12px;
+    position: absolute;
+    width: 152px;
+    height: 64px;
+    background: rgba(26, 30, 38, 0.3);
+    backdrop-filter: blur(4px);
+    border-radius: 100px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    z-index: 2;
+    margin-left: 125px;
+    margin-top: -118px;
+}
+
+.stockout {
+    margin-top: 3px;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.saleoffer {
+    font-family: 'Lexend', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 64px;
+    gap: 32px;
+    position: absolute;
+    width: 1200px;
+    height: 458px;
+    background: #05422C;
+    border-radius: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    z-index: 1;
+    margin-top: 736px;
+    margin-left: 14%;
+}
+
+.unlock {
+    width: 700px;
+    color: white;
+    font-size: 64px;
+    font-weight: 600;
+    letter-spacing: -4px;
+    line-height: 70.4px;
+}
+
+.coupon {
+    width: 789px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #C3D2CC;
+    margin-top: 24px;
+}
+
+.couponline {
+    border: 1px solid #346654;
+    width: 1072px;
+}
+
+.emailaddress {
+    font-family: 'Lexend', sans-serif;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 24px 44px;
+    gap: 8px;
+    width: 835px;
+    height: 72px;
+    background: #05422C;
+    border: 1px solid #346654;
+    border-radius: 100px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    outline: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.emailaddress::placeholder {
+    color: #648A7C;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.subscribe {
+    display: flex;
+}
+
+.revealcoupon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 24px 44px;
+    gap: 8px;
+    width: 205px;
+    height: 72px;
+    background: #17AF26;
+    border-radius: 100px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-left: 32px;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.footerbg {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 344px 120px 64px;
+    gap: 120px;
+    isolation: isolate;
+    width: 100%;
+    position: absolute;
+    height: 1246px;
+    left: 0px;
+    top: 3457px;
+    margin-top: 208px;
+    background: linear-gradient(180deg, #1A1E26 0%, #01100B 100%);
+}
+
+.whitelogo {
+    margin-left: -1427px;
+    position: absolute;
+    margin-top: 1288px;
+    width: 173px;
+    height: 42px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.topshelfdesc {
+    font-family: 'Lexend', sans-serif;
+    margin-left: -1427px;
+    width: 276px;
+    height: 240px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #9D9EA2;
+    margin-top: 1354px;
+    position: absolute;
+}
+
+.centerfoot {
+    font-family: 'Lexend', sans-serif;
+    position: absolute;
+    margin-left: 769px;
+    margin-top: 1288px;
+}
+
+.quilink {
+    font-family: 'Lexend', sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.trackurorder {
+    font-family: 'Lexend', sans-serif;
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #9D9EA2;
+}
+
+.shopall {
+    font-family: 'Lexend', sans-serif;
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #9D9EA2;
+}
+
+.flower {
+    font-family: 'Lexend', sans-serif;
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #9D9EA2;
+}
+
+.edibles {
+    font-family: 'Lexend', sans-serif;
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #9D9EA2;
+}
+
+.concentrat {
+    font-family: 'Lexend', sans-serif;
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #9D9EA2;
+}
+
+.refund {
+    font-family: 'Lexend', sans-serif;
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #9D9EA2;
+}
+
+.contus {
+    font-family: 'Lexend', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: white;
+    margin-top: 40px;
+}
+
+.email {
+    font-family: 'Lexend', sans-serif;
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #9D9EA2;
+}
+
+.mor {
+    font-family: 'Lexend', sans-serif;
+    margin-top: 40px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+}
+
+.canada {
+    font-family: 'Lexend', sans-serif;
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #9D9EA2;
+}
+
+.brun {
+    font-family: 'Lexend', sans-serif;
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #9D9EA2;
+}
+
+.edw {
+    font-family: 'Lexend', sans-serif;
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #9D9EA2;
+}
+
+.terri {
+    font-family: 'Lexend', sans-serif;
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #9D9EA2;
+}
+
+.sask {
+    font-family: 'Lexend', sans-serif;
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #9D9EA2;
+}
+
+.cardssect {
+    margin-top: 40px;
+}
+
+.svg2 {
+    margin-left: 16px;
+}
+
+.svg3 {
+    margin-left: 16px;
+}
+
+.svg4 {
+    margin-left: 16px;
+}
+
+.footerr {
+    display: flex;
+}
+
+.sidebar {
+    font-family: 'Lexend', sans-serif;
+    margin-left: 465px;
+    margin-top: -655px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #9D9EA2;
+}
+
+.prombun {
+    margin-top: 16px;
+}
+
+.suppo {
+    margin-top: 16px;
+}
+
+.rewar {
+    margin-top: 16px;
+}
+
+.blo {
+    margin-top: 16px;
+}
+
+.faq {
+    margin-top: 16px;
+}
+
+.manitaba {
+    margin-top: 209px;
+}
+
+.quitebec {
+    margin-top: 16px;
+}
+
+.columbia {
+    margin-top: 16px;
+}
+
+.ontario {
+    margin-top: 16px;
+}
+
+.alberta {
+    margin-top: 16px;
+}
+
+.copyrght {
+    display: flex;
+    color: white;
+    margin-left: -531px;
+    margin-top: 176px;
+}
+
+.topshelfcopy {
+    font-family: 'Lexend', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #717378;
+}
+
+.outof {
+    font-family: 'Lexend', sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    margin-left: 504px;
+}
+
+.policy {
+    font-family: 'Lexend', sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    margin-left: 32px;
+}
+
+.terms {
+    font-family: 'Lexend', sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    margin-left: 32px;
+}
